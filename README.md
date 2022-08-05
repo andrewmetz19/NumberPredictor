@@ -2,11 +2,11 @@
 Draw a number and it will predict what number you drew.
 
 
-I am learning deep learning and this is essentially a (very slightly) modified version of an example model trained on the MNIST dataset that is on the keras website.
+I am learning deep learning and this is essentially a modified version of an example model trained on the MNIST dataset that is on the keras website.
 
 Link: https://keras.io/examples/vision/mnist_convnet/
 
-I essentially just added a few layers to give the model a bit more depth because the model seemed to struggle with zeros and nines. I imagine this is due to the lack
+I mostly just added a few layers to give the model a bit more depth because the model seemed to struggle with zeros and nines. I imagine this is due to the lack
 of processing the image in my draw program. The original model I trained with fewer layers in the the MNIST-Model folder while the newer and more accurate model is in the 
 model2 folder. 
 
